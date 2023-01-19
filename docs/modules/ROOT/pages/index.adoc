@@ -6,6 +6,23 @@ This is the automatic start page for version *{page-component-display-version}* 
 Component B is one of two documentation components in the Antora Demo.
 The other docs component, Component A, can be accessed using the component selector menu (aka component drawer) at the bottom of the menu on the left side of the page.
 
+[tabs]
+====
+Tab A:: Contents of tab A.
+
+Tab B::
++
+Contents of tab B.
+
+Tab C::
++
+--
+Contents of tab C.
+
+Contains more than one block.
+--
+====
+
 == Page source
 
 This page is sourced from the AsciiDoc file named [.path]_index.adoc_ that is located at [.path]_demo-component-b/docs/modules/ROOT/pages_.
